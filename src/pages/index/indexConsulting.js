@@ -7,7 +7,6 @@ import ab01 from '../../assets/images/about/ab01.jpg';
 
 import Navbar from '../../component/Navbar/navbar'
 import Footer from '../../component/Footer/footer';
-// import CookieModal from '../../component/cookieModal';
 // manageent team is coming from components
 import ManagementTeam from '../../component/managementTeam';
 import CompanyLogo from '../../component/companyLogo';
@@ -37,6 +36,7 @@ export default function IndexConsulting() {
     return (
         <>
             <Navbar navClass="nav-light" />
+            {/* background image  */}
             <section className="relative md:py-60 py-36 bg-[url('../../assets/images/consulting/bg.jpg')] bg-right bg-no-repeat bg-cover">
                 <div className="absolute inset-0 bg-slate-900/70"></div>
                 <div className="container relative">

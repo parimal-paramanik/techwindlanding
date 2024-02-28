@@ -7,7 +7,8 @@ import ab01 from '../../assets/images/about/ab01.jpg';
 
 import Navbar from '../../component/Navbar/navbar'
 import Footer from '../../component/Footer/footer';
-import CookieModal from '../../component/cookieModal';
+// import CookieModal from '../../component/cookieModal';
+// manageent team is coming from components
 import ManagementTeam from '../../component/managementTeam';
 import CompanyLogo from '../../component/companyLogo';
 
@@ -64,7 +65,7 @@ export default function IndexConsulting() {
 
                         <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
                     </div>
-
+ {/* this map is to show Business Consulting Services */}
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
                         {consultingServices.map((item,index)=>{
                             return(
@@ -89,7 +90,7 @@ export default function IndexConsulting() {
                     </div>
                 </div>
             </section>
-
+ {/* this one is showing  Business and technology */}
             <section className="relative bg-gray-50 dark:bg-slate-800 md:py-24 py-16">
                 <div className="container relative">
                     <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
@@ -126,6 +127,7 @@ export default function IndexConsulting() {
                         </div>
                     </div>
                 </div>
+                    {/*  this is is to show learn more options */}
                 <div className="container relative mt-16">
                     <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
                         {consultingAbout.map((item, index) => {
@@ -148,6 +150,7 @@ export default function IndexConsulting() {
                     </div>
                 </div>
             </section>
+            
             <section className="relative md:py-24 py-16">
                 <div className="container relative">
                     <div className="grid md:grid-cols-12 grid-cols-1 pb-8 items-end">
@@ -160,6 +163,7 @@ export default function IndexConsulting() {
                             <Link to="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">See More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                         </div>
                     </div>
+                    {/* this one is to show our digital product */}
                     <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-2">
                         {consultingProduct.map((item, index) => {
                             return(
@@ -187,7 +191,7 @@ export default function IndexConsulting() {
                         </div>
                     </div>
                 </div>
-
+{/* this one is to show trusted by more than 10k users  */}
                 <div className="container relative md:mt-24 mt-16 lg:pt-24 pt-16">
                     <div className="absolute inset-0 opacity-25 dark:opacity-50 bg-[url('../../assets/images/map.png')] bg-no-repeat bg-center bg-cover"></div>
                     <div className="relative grid grid-cols-1 pb-8 text-center z-1">
@@ -232,7 +236,7 @@ export default function IndexConsulting() {
                             </div>
 
                             <div className="tiny-single-item">
-
+{/* this one is to show feedback */}
                                 <TinySlider settings={settings}>
                                     {feedback.map((item, index) => {
                                         return(
@@ -266,7 +270,7 @@ export default function IndexConsulting() {
                 <ManagementTeam className="relative md:mt-24 mt-16" id={""} />
             </section>
             <Footer />
-            <CookieModal />
+            {/* <CookieModal /> */}
         </>
     )
 }

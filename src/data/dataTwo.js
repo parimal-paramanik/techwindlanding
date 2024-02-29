@@ -827,7 +827,7 @@ export const constructionAbout = [
 export const consultingAbout = [
     {
      icon:Icon.Codesandbox,
-     title:"Web3",
+     title:"Research Efficient",
      desc:"I keep updated with research and those big mathematical equations just sound like musical nodes to me."
     },
     {

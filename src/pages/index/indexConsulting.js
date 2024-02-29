@@ -33,7 +33,7 @@ export default function IndexConsulting() {
                     <div className="grid grid-cols-1 items-center mt-10">
                         <span className="text-white/80 font-bold mb-4 text-xl">Hi, I am</span>
                         <h4 className="font-extrabold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">Nishchal Gaba <br />AI & Blockchain Expert</h4>
-                        <p className="text-white/60 text-xl max-w-xl font-extrabold">I help businesses research, integrate and execute AI & Web3 Solutions. Happy to tag along your product development journey if you are building somethign amazing.</p>
+                        <p className="text-white/60 text-xl max-w-xl font-extrabold">I help businesses research, integrate and execute AI & Web3 Solutions. Happy to tag along your product development journey if you are building something amazing.</p>
 
                         <div className="mt-8 ">
                         <ul className="list-none mt-5 space-x-1 space-y-1">
@@ -161,13 +161,13 @@ export default function IndexConsulting() {
                                     <div className="relative">
                                         <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-indigo-600/5 dark:bg-indigo-600/30">
                                         <a href={item.link} target="_blank" rel="noopener noreferrer">
-     <img src={item.image} className="rounded-t-md shadow" alt="" />
-</a>
+       <img src={item.image} className="rounded-t-md shadow" alt="" />
+             </a>
                                         </div>
                                     </div>
 
                                     <div className="pt-4 px-3">
-                                        <h5 className="mb-1 font-semibold text-lg"><Link to="https://1.envato.market/techwind-react" target='_blank' className="hover:text-indigo-600 transition-all duration-500 ease-in-out">{item.title}</Link></h5>
+                                        <h5 className="mb-1 font-semibold text-lg"><a href={item.link}  target='_blank'rel="noreferrer" className="hover:text-indigo-600 transition-all duration-500 ease-in-out">{item.title}</a></h5>
                                         <span className="text-slate-400">{item.name}</span>
                                     </div>
                                 </div>

@@ -881,7 +881,7 @@ export const consultingProduct = [
         image:pro6,
         title:"Comparison of ML Classifiers for Image Data",
         name:"Mar 1, 2019",
-        link:""
+        // link:" "
     },
     {
         image:pro5,

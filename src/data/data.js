@@ -44,18 +44,18 @@ import course9 from '../assets/images/course/c9.jpg';
 import course10 from '../assets/images/course/c10.jpg';
 
 import foodBlog1 from '../assets/images/food/blog/1.jpg';
-import foodBlog2 from '../assets/images/food/blog/5.jpg';
-import foodBlog3 from '../assets/images/food/blog/f1.jpg';
-import foodBlog4 from '../assets/images/food/blog/m1.jpg';
-import foodBlog5 from '../assets/images/food/blog/2.jpg';
-import foodBlog6 from '../assets/images/food/blog/6.jpg';
-import foodBlog7 from '../assets/images/food/blog/m2.jpg';
-import foodBlog8 from '../assets/images/food/blog/f2.jpg';
-import foodBlog9 from '../assets/images/food/blog/2.jpg';
-import foodBlog10 from '../assets/images/food/blog/m3.jpg';
-import foodBlog11 from '../assets/images/food/blog/7.jpg';
-import foodBlog12 from '../assets/images/food/blog/f3.jpg';
-import foodBlog13 from '../assets/images/food/blog/f4.jpg';
+// import foodBlog2 from '../assets/images/food/blog/5.jpg';
+// import foodBlog3 from '../assets/images/food/blog/f1.jpg';
+// import foodBlog4 from '../assets/images/food/blog/m1.jpg';
+// import foodBlog5 from '../assets/images/food/blog/2.jpg';
+// import foodBlog6 from '../assets/images/food/blog/6.jpg';
+// import foodBlog7 from '../assets/images/food/blog/m2.jpg';
+// import foodBlog8 from '../assets/images/food/blog/f2.jpg';
+// import foodBlog9 from '../assets/images/food/blog/2.jpg';
+// import foodBlog10 from '../assets/images/food/blog/m3.jpg';
+// import foodBlog11 from '../assets/images/food/blog/7.jpg';
+// import foodBlog12 from '../assets/images/food/blog/f3.jpg';
+// import foodBlog13 from '../assets/images/food/blog/f4.jpg';
 
 import blog1 from '../assets/images/blog/blog.png';
 
@@ -512,56 +512,13 @@ export   const courseListing = [
         desc: 'HTML, CSS, Javascripts, and Basic Knowledge about web design'
     }
 ] 
-export const foodBlogData = [
+export const Myprojects = [
     {
         id:1,
         image:foodBlog1,
         tag:"Salad",
         title:"Giant Multi-Stuffed Soft Pretzel",
         date:"13th September 2023",
-    },
-    
-    {
-        id:8,
-        image:foodBlog8,
-        tag:"Eat",
-        title:"5 Recipes Almost Too Cute To Eat",
-        date:"31st August 2023",
-    },
-    {
-        id:9,
-        image:foodBlog9,
-        tag:"Vegetarian",
-        title:"Vegetarian Breakfast for You",
-        date:"1st September 2023",
-    },
-    {
-        id:10,
-        image:foodBlog10,
-        tag:"Breads",
-        title:"Meal Prep Breakfast For The Week",
-        date:"14th July 2022",
-    },
-    {
-        id:11,
-        image:foodBlog11,
-        tag:"Cheese",
-        title:"Lactose Free Homemade Cheese",
-        date:"14th July 2022",
-    },
-    {
-        id:12,
-        image:foodBlog12,
-        tag:"Salad",
-        title:"Mint-Pomegranate Salad",
-        date:"14th July 2022",
-    },
-    {
-        id:13,
-        image:foodBlog13,
-        tag:"Apple",
-        title:"Tiny Apple Pies with Cinnamon",
-        date:"14th July 2022",
     },
 ]
 export const blogData = [

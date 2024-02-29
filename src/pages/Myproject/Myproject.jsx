@@ -15,11 +15,11 @@ const responsive = {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 3,
+      items: 1,
     },
   };
 
@@ -35,16 +35,19 @@ export default function Myproject(props) {
 
                 <div className=" mt-8 w-[100%] ">
                     <Carousel 
-                     responsive={responsive}
-                     swipeable={false}
-                     draggable={false}
-                     ssr={true}
-                     keyBoardControl={true}
-                     showDots={false}
-                     slidesToSlide={1}
-                     containerClass="carousel-container"
-                     dotListClass="custom-dot-list-style"
-                     itemClass="carousel-item-padding-40-px"
+                   responsive={responsive}
+                   swipeable={false}
+                   draggable={false}
+                   autoPlay={true}
+                   autoPlaySpeed={2000}
+                   infinite={true}
+                   ssr={true}
+                   keyBoardControl={true}
+                   showDots={false}
+                   slidesToSlide={1}
+                   containerClass="carousel-container"
+                   dotListClass="custom-dot-list-style"
+                   itemClass="carousel-item-padding-40-px"
                     >
                     {Myprojects.map((data,index) => {
                         return(

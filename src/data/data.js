@@ -1016,31 +1016,31 @@ export const teamData =[
 export const feedback =[
     {
         id:1,
-        description: '" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "',
+        description: "The technical research done for our AI usecase was one of the best we have ever seen.",
         image: client1,
         name: 'Abhishek',
-        role: 'Manager'
+        role: 'TechVZero'
     },
     {
         id:2,
-        description: `" The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "`,
+        description: `We were able to test many innovative AI solutions for our co-working hub with Nish. "`,
         image: client2,
         name: 'Usha',
-        role: 'Manager'
+        role: '91 SpringBoard'
     },
     {
         id:3,
-        description: '" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others. "',
+        description: 'With Nish as our AI consultant, the team was inspired to another leve "',
         image: client3,
-        name: 'Nikhil',
-        role: 'Manager'
+        name: 'Nikhil Mishra',
+        role: 'ZeeQ'
     },
     {
         id:4,
-        description: '" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "',
+        description: '"Working with Nish was like a master class of System Design for scalable products."',
         image: client4,
         name: 'Vineet',
-        role: 'Manager'
+        role: 'AlterCode'
     },
 ]
 

@@ -183,19 +183,20 @@ NOTE: I am unable to share some of the research materials due to client confiden
                 <div className="container relative md:mt-24 mt-16 lg:pt-24 pt-16">
                     <div className="absolute inset-0 opacity-25 dark:opacity-50 bg-[url('../../assets/images/map.png')] bg-no-repeat bg-center bg-cover"></div>
                     <div className="relative grid grid-cols-1 pb-8 text-center z-1">
-                        <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-black dark:text-white">Trusted by more than 10K users</h3>
+                        <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-black dark:text-white">Trusted by more than 40 firms
+</h3>
 
-                        <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p className="text-slate-400 max-w-xl mx-auto">From Startups to Enterprises, I have been fortunate to work alongside some amaziing teams..</p>
                     </div>
 
                     <div className="relative grid md:grid-cols-3 grid-cols-1 items-center mt-8 gap-[30px] z-1">
                         <div className="counter-box text-center">
-                            <h1 className="lg:text-5xl text-4xl font-semibold mb-2 text-slate-400 dark:text-white"><CountUp className="counter-value" start={1010} end={1548} />+</h1>
-                            <h5 className="counter-head text-lg font-medium">Properties Sell</h5>
+                            <h1 className="lg:text-5xl text-4xl font-semibold mb-2 text-slate-400 dark:text-white"><CountUp className="counter-value" start={1} end={200} />+</h1>
+                            <h5 className="counter-head text-lg font-medium">Projects Delivered</h5>
                         </div>
 
                         <div className="counter-box text-center">
-                            <h1 className="lg:text-5xl text-4xl font-semibold mb-2 text-slate-400 dark:text-white"><CountUp className="counter-value" start={2} end={25} />+</h1>
+                            <h1 className="lg:text-5xl text-4xl font-semibold mb-2 text-slate-400 dark:text-white"><CountUp className="counter-value" start={1} end={5} />+</h1>
                             <h5 className="counter-head text-lg font-medium">Award Gained</h5>
                         </div>
 
@@ -209,6 +210,8 @@ NOTE: I am unable to share some of the research materials due to client confiden
                 <div className="container relative md:mt-24 mt-16">
                     <div className="grid grid-cols-1 pb-8 text-center">
                         <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-black dark:text-white">What Our Client Say ?</h3>
+                        <p className="text-slate-400 max-w-xl mx-auto">Some honest feedback from the work I have had the fortune to do with some of the best minds.</p>
+                        
                     </div>
 
                     <div className="flex justify-center relative mt-16">

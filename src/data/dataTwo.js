@@ -68,9 +68,10 @@ import construction6 from '../assets/images/construction/6.jpg';
 import pro1 from '../assets/images/portfolio/pro1.jpg';
 import pro2 from '../assets/images/portfolio/pro2.jpg';
 import pro3 from '../assets/images/portfolio/pro3.jpg';
-import pro4 from '../assets/images/portfolio/pro4.jpg';
+import pro4 from '../assets/images/portfolio/pro4.png';
 import pro5 from '../assets/images/portfolio/pro5.jpg';
 import pro6 from '../assets/images/portfolio/pro6.jpg';
+import pro7 from '../assets/images/portfolio/pro7.jpg';
 
 import consulting1 from '../assets/images/consulting/11.jpg';
 import consulting2 from '../assets/images/consulting/12.jpg';
@@ -877,17 +878,18 @@ export const consultingProduct = [
         name:"Jun 1, 2020",
         link:"https://link.springer.com/chapter/10.1007/978-981-15-4032-5_64"
     },
+   
+    {
+        image:pro7,
+        title:"Credmark Whitepaper",
+        name:"Jan 1, 2023",
+        link:"https://docs.credmark.com/credmark/"
+    },
     {
         image:pro6,
         title:"Comparison of ML Classifiers for Image Data",
         name:"Mar 1, 2019",
         // link:" "
-    },
-    {
-        image:pro5,
-        title:"Credmark Whitepaper",
-        name:"Jan 1, 2023",
-        link:"https://docs.credmark.com/credmark/"
     },
 ] 
 export const consultingServices = [

@@ -112,7 +112,7 @@ export default function IndexConsulting() {
                                 <p className="text-slate-400 max-w-xl">From Working with giants like Target US Retail, Delhivery, academia like IIT Delhi to web3 firms across US and Singapore, the journey has been an enriching one. Each day getting better is the key, I try new reserach, play with AI models and build out web3 ideas to reality.If you are looking for a trusted partner on your team, I think we would gel up well :)</p>
 
                                 <div className="mt-6">
-                                    <Link to="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-2"><FiAirplay className="me-1"/> Get Started</Link>
+                                    <Link to="/contact" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-2"><FiAirplay className="me-1"/> Contact Me</Link>
                                 </div>
                             </div>
                         </div>
@@ -144,8 +144,8 @@ export default function IndexConsulting() {
                 <div className="container relative">
                     <div className="grid md:grid-cols-12 grid-cols-1 pb-8 items-end">
                         <div className="lg:col-span-8 md:col-span-6 md:text-start text-center">
-                            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">My Publications</h3>
-                            <p className="text-slate-400 max-w-xl">Check out my past articles and public research to get a glimpse of some of the past work.
+                            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold m-auto">My Publications</h3>
+                            <p className="text-slate-400 max-w-xl text-center">Check out my past articles and public research to get a glimpse of some of the past work.
 NOTE: I am unable to share some of the research materials due to client confidentiality</p>
                         </div>
                     </div>
@@ -158,8 +158,8 @@ NOTE: I am unable to share some of the research materials due to client confiden
                                     <div className="relative">
                                         <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-indigo-600/5 dark:bg-indigo-600/30">
                                         <a href={item.link} target="_blank" rel="noopener noreferrer">
-       <img src={item.image} className="rounded-t-md shadow" alt="" />
-             </a>
+                            <img src={item.image} className="rounded-t-md shadow " alt="" />
+                                    </a>
                                         </div>
                                     </div>
 
@@ -209,8 +209,6 @@ NOTE: I am unable to share some of the research materials due to client confiden
                 <div className="container relative md:mt-24 mt-16">
                     <div className="grid grid-cols-1 pb-8 text-center">
                         <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-black dark:text-white">What Our Client Say ?</h3>
-
-                        <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
                     </div>
 
                     <div className="flex justify-center relative mt-16">
@@ -225,11 +223,11 @@ NOTE: I am unable to share some of the research materials due to client confiden
 
                             <div className="tiny-single-item">
 {/* this one is to show feedback */}
-                                {/* <TinySlider settings={settings}> */}
+                                
                                 <div>
-                                    {feedback.map((item, index) => {
+                                    {feedback.map((item, id) => {
                                         return(
-                                            <div className="tiny-slide" key={index}>
+                                            <div className="tiny-slide" key={id}>
                                                 <div className="text-center">
                                                     <p className="text-lg text-slate-400 italic"> {item.description} </p>
     

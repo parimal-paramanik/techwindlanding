@@ -144,12 +144,9 @@ export default function IndexConsulting() {
                 <div className="container relative">
                     <div className="grid md:grid-cols-12 grid-cols-1 pb-8 items-end">
                         <div className="lg:col-span-8 md:col-span-6 md:text-start text-center">
-                            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Our Digital Product</h3>
-                            <p className="text-slate-400 max-w-xl">Start working with Prodigal that can provide everything you need regarding Ai and Web3.</p>
-                        </div>
-
-                        <div className="lg:col-span-4 md:col-span-6 md:text-end hidden md:block">
-                            <Link to="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">See More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">My Publications</h3>
+                            <p className="text-slate-400 max-w-xl">Check out my past articles and public research to get a glimpse of some of the past work.
+NOTE: I am unable to share some of the research materials due to client confidentiality</p>
                         </div>
                     </div>
                     {/* this one is to show our digital product */}

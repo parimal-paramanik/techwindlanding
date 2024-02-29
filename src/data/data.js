@@ -44,18 +44,34 @@ import course9 from '../assets/images/course/c9.jpg';
 import course10 from '../assets/images/course/c10.jpg';
 
 import foodBlog1 from '../assets/images/food/blog/1.jpg';
-// import foodBlog2 from '../assets/images/food/blog/5.jpg';
-// import foodBlog3 from '../assets/images/food/blog/f1.jpg';
-// import foodBlog4 from '../assets/images/food/blog/m1.jpg';
-// import foodBlog5 from '../assets/images/food/blog/2.jpg';
-// import foodBlog6 from '../assets/images/food/blog/6.jpg';
-// import foodBlog7 from '../assets/images/food/blog/m2.jpg';
-// import foodBlog8 from '../assets/images/food/blog/f2.jpg';
-// import foodBlog9 from '../assets/images/food/blog/2.jpg';
-// import foodBlog10 from '../assets/images/food/blog/m3.jpg';
-// import foodBlog11 from '../assets/images/food/blog/7.jpg';
-// import foodBlog12 from '../assets/images/food/blog/f3.jpg';
-// import foodBlog13 from '../assets/images/food/blog/f4.jpg';
+import foodBlog10 from '../assets/images/food/blog/10.png';
+import foodBlog11 from '../assets/images/food/blog/11.png';
+import foodBlog12 from '../assets/images/food/blog/12.png';
+import foodBlog13 from '../assets/images/food/blog/13.png';
+import foodBlog14 from '../assets/images/food/blog/14.png';
+import foodBlog15 from '../assets/images/food/blog/15.png';
+import foodBlog166 from '../assets/images/food/blog/166.png';
+import foodBlog17 from '../assets/images/food/blog/17.png';
+import foodBlog18 from '../assets/images/food/blog/18.png';
+import foodBlog19 from '../assets/images/food/blog/19.png';
+import foodBlog20 from '../assets/images/food/blog/20.png';
+import foodBlog21 from '../assets/images/food/blog/21.png';
+import foodBlog22 from '../assets/images/food/blog/22.png';
+import foodBlog23 from '../assets/images/food/blog/23.png';
+import foodBlog24 from '../assets/images/food/blog/24.png';
+import foodBlog25 from '../assets/images/food/blog/25.png';
+import foodBlog26 from '../assets/images/food/blog/26.png';
+import foodBlog27 from '../assets/images/food/blog/27.png';
+import foodBlog28 from '../assets/images/food/blog/28.png';
+import foodBlog29 from '../assets/images/food/blog/29.png';
+import foodBlog30 from '../assets/images/food/blog/30.png';
+import foodBlog31 from '../assets/images/food/blog/31.png';
+import foodBlog32 from '../assets/images/food/blog/32.png';
+import foodBlog33 from '../assets/images/food/blog/33.png';
+import foodBlog34 from '../assets/images/food/blog/34.png';
+import foodBlog35 from '../assets/images/food/blog/35.png';
+import foodBlog36 from '../assets/images/food/blog/36.png';
+
 
 import blog1 from '../assets/images/blog/blog.png';
 
@@ -516,10 +532,188 @@ export const Myprojects = [
     {
         id:1,
         image:foodBlog1,
-        tag:"Salad",
-        title:"Giant Multi-Stuffed Soft Pretzel",
-        date:"13th September 2023",
+        title:"Custom Story GPT",
     },
+    {
+        id:2,
+        image:foodBlog1,
+        title:"Travel Intent AI",
+    },
+    {
+        id:3,
+        image:foodBlog1,
+        title:"Gen AI based travel recommendation",
+    },
+    {
+        id:4,
+        image:foodBlog1,
+        title:"Social Content Automation",
+    },
+    {
+        id:5,
+        image:foodBlog1,
+        title:"DeFi Aggregation Platform",
+    },
+    {
+        id:6,
+        image:foodBlog1,
+        title:"RWA Fractional Assets protocols for planes, movies and prop tech",
+    },
+    {
+        id:7,
+        image:foodBlog1,
+        title:"N-Tier Fractionalization Research",
+    },
+    {
+        id:8,
+        image:foodBlog1,
+        title:"Gen AI Tools Aggregation Platform (Marketing Focused)",
+    },
+    {
+        id:9,
+        image:foodBlog1,
+        title:"LLM Automation Pipelines",
+    },
+
+    // another images 
+    {
+        id:10,
+        image:foodBlog10,
+        title:"On chain data analytics and account profiling",
+    },
+    {
+        id:11,
+        image:foodBlog11,
+        title:"NFT Marketplace contracts Vyper",
+    },
+    {
+        id:12,
+        image:foodBlog12,
+        title:"Uniswap V3 Price Recommendation Engine",
+    },
+    {
+        id:13,
+        image:foodBlog13,
+        title:"Uniswap V3 APR Engine",
+    },
+    {
+        id:14,
+        image:foodBlog14,
+        title:"Cloud Analytics based on Machine Learning and Pattern Recognition",
+    },
+    {
+        id:15,
+        image:foodBlog15,
+        title:"Movie recommender using past movie summary plots for MovieLens Dataset",
+    },
+    {
+        id:16,
+        image:foodBlog166,
+        title:"Power dissipation forecasting for windmills using RNN",
+    },
+    {
+        id:17,
+        image:foodBlog17,
+        title:"Profanity filter for Twitter and Youtube data",
+    },
+    {
+        id:18,
+        image:foodBlog18,
+        title:"SPSS data analysis for food habits and factors for diseases",
+    },
+    {
+        id:19,
+        image:foodBlog19,
+        title:"Speaker Recognition Using Speech Profiling",
+    },
+    {
+        id:20,
+        image:foodBlog20,
+        title:"Hybrid SVM optimization Genetic Algorithm for Parametric Optimization",
+    },
+    {
+        id:21,
+        image:foodBlog21,
+        title:"Hybrid clustering using density based clustering to eliminate manual class inputs",
+    },
+    {
+        id:22,
+        image:foodBlog22,
+        title:"Image captioning generator using Encoder CNN and Decoder RNN",
+    },
+    {
+        id:23,
+        image:foodBlog23,
+        title:"Stock Market Prediction using Linear Regression and RNN",
+    },
+    {
+        id:24,
+        image:foodBlog24,
+        title:"Class imbalance tackling techniques for real world datasets",
+    },
+    {
+        id:25,
+        image:foodBlog25,
+        title:"Hindi character recognition using neural networks",
+    },
+    {
+        id:26,
+        image:foodBlog26,
+        title:"Transfer learning based class addition for medical imaging classification",
+    },
+    {
+        id:27,
+        image:foodBlog27,
+        title:"Blood cell image classification for medical image dataset",
+    },
+    {
+        id:28,
+        image:foodBlog28,
+        title:"Disease prediction using patterns from past medical data",
+    },
+    {
+        id:29,
+        image:foodBlog29,
+        title:"Driver drowsiness detection",
+    },
+    {
+        id:30,
+        image:foodBlog30,
+        title:"Comparative study of image classification of RGB vs Grayscale vs Color bin Grayscale network",
+    },
+    {
+        id:31,
+        image:foodBlog31,
+        title:"Machine learning analysis on big data using hadoop and python",
+    },
+    {
+        id:32,
+        image:foodBlog32,
+        title:"Twitter sentiment analysis",
+    },
+    {
+        id:33,
+        image:foodBlog33,
+        title:"Implementing the genetic algorithm with improved fitness function",
+    },
+    {
+        id:34,
+        image:foodBlog34,
+        title:"Detailed implementation of the AlexNet",
+    },
+    {
+        id:35,
+        image:foodBlog35,
+        title:"Network clustering and sensor data collecting using Ant colony optimization",
+    },
+    {
+        id:36,
+        image:foodBlog36,
+        title:"Image recognition on CIFAR-10 and CIFAR-100 dataset",
+    },
+    
+
+
 ]
 export const blogData = [
     {

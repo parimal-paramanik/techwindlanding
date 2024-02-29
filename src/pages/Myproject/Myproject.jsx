@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 import * as Icon from 'react-feather'
-import {FaArrowRight} from '../assets/icons/icons'
+import {FaArrowRight} from '../../assets/icons/icons'
 
-import { blogData} from '../data/data';
+import { blogData} from '../../data/data';
 
-export default function ManagementTeam(props) {
+export default function Myproject(props) {
     return (
         <section className={props.className} id={props.id}>
           
@@ -48,3 +48,4 @@ export default function ManagementTeam(props) {
         </section>
     )
 }
+

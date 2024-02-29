@@ -72,9 +72,9 @@ import pro4 from '../assets/images/portfolio/pro4.jpg';
 import pro5 from '../assets/images/portfolio/pro5.jpg';
 import pro6 from '../assets/images/portfolio/pro6.jpg';
 
-import consulting1 from '../assets/images/consulting/1.jpg';
-import consulting2 from '../assets/images/consulting/2.jpg';
-import consulting3 from '../assets/images/consulting/3.jpg';
+import consulting1 from '../assets/images/consulting/11.jpg';
+import consulting2 from '../assets/images/consulting/12.jpg';
+import consulting3 from '../assets/images/consulting/13.jpg';
 
 import electronics from '../assets/images/shop/categories/electronics.jpg';
 import fashion from '../assets/images/shop/categories/fashion.jpg';
@@ -827,72 +827,84 @@ export const constructionAbout = [
 export const consultingAbout = [
     {
      icon:Icon.Codesandbox,
-     title:"User Friendly",
-     desc:"The phrasal sequence of the is now so that many campaign and benefit"
+     title:"Web3",
+     desc:"I keep updated with research and those big mathematical equations just sound like musical nodes to me."
     },
     {
      icon:Icon.Send,
-     title:"Super Fast",
-     desc:"The phrasal sequence of the is now so that many campaign and benefit"
+     title:"Consistnet Delivery",
+     desc:"Many ideas sound cool but hardly see the day of light or reach a production stage. I am proud to say I have a consistent track record of pushing the products to production"
     },
     {
      icon:Icon.Star,
-     title:"Insightful Analytics",
-     desc:"The phrasal sequence of the is now so that many campaign and benefit"
+     title:"Business Insights",
+     desc:"I love researching new products and mapping their growth. A/B testing with users to multiple POC launches. I can help you map the impact the technical product has the potential to make."
     },
     {
      icon:Icon.Bookmark,
      title:"Highly Rated",
-     desc:"The phrasal sequence of the is now so that many campaign and benefit"
+     desc:"I have been gracious to receive good recognition and awards for my work, but the best is still in the making :). I would love for your project to be my next best adventure."
     },
  ]
 export const consultingProduct = [
     {
         image:pro1,
-        title:"Techwind Personal Portfolio",
-        name:"Creative"
+        title:"On-Chain Market Data",
+        name:"Feb 1, 2022",
+        link:"https://docs.credmark.com/data-fundamentals/sourcing/on-chain-market-data"
     },
     {
         image:pro2,
-        title:"Techwind Minimal Portfolio",
-        name:"Minimal"
+        title:"Aave Data Discrepancy",
+        name:"Feb 1, 2022",
+        link:"https://docs.credmark.com/data-fundamentals/controls/aave-data-discrepancy"
     },
     {
         image:pro3,
-        title:"Techwind NFT Market",
-        name:"Crypto"
+        title:"On-Chain Gas Fees (ETH)",
+        name:"Feb 1, 2022",
+        link:"https://docs.credmark.com/data-fundamentals/sourcing/on-chain-gas-fees-eth"
     },
     {
         image:pro4,
-        title:"Techwind Portfolio",
-        name:"Portfolio"
+        title:"A Technical Analysis of Uniswap V3",
+        name:"May 20, 2021",
+        link:"https://credmark.com/blog/a-technical-analysis-of-uniswap-v3"
     },
     {
         image:pro5,
-        title:"Techwind Constuction",
-        name:"Corporate"
+        title:"Streamlining choice of CNNs and structure framing of convolution layer",
+        name:"Jun 1, 2020",
+        link:"https://link.springer.com/chapter/10.1007/978-981-15-4032-5_64"
     },
     {
         image:pro6,
-        title:"Techwind SEO",
-        name:"SEO"
+        title:"Comparison of ML Classifiers for Image Data",
+        name:"Mar 1, 2019",
+        link:""
+    },
+    {
+        image:pro5,
+        title:"Credmark Whitepaper",
+        name:"Jan 1, 2023",
+        link:"https://docs.credmark.com/credmark/"
     },
 ] 
 export const consultingServices = [
     {
         image:consulting1,
-        title:"Profitable Marketing",
-        desc:"We develop digital strategies, products and services appreciated by clients.",
+        title:"Gen AI",
+        desc:"I have helped firms in developing custom models, fine tune LLMs, research review Deep Learning Models and help scale to production over the course of past 7 years",
     },
     {
         image:consulting2,
-        title:"SEO Specialists",
-        desc:"We develop digital strategies, products and services appreciated by clients.",
+        title:"Web3",
+        desc:"From whitepapers, backtesting trading engines for DeFi to Real World Assets (RWAs) N-tier fractionalization, this has been a sweet learning journey. For the past 3 years, been workign on cutting edge web3 products.",
     },
     {
         image:consulting3,
-        title:"Audience Analysis",
-        desc:"We develop digital strategies, products and services appreciated by clients.",
+        title:"Product Management",
+        desc:"I am proud to have the pedigree of techncial product management for multiple niche products. I can help ensure a smooth launch and a clear path to scalable success.",
     },
 ]
 export const corporateAbout = [

@@ -57,22 +57,7 @@ import foodBlog11 from '../assets/images/food/blog/7.jpg';
 import foodBlog12 from '../assets/images/food/blog/f3.jpg';
 import foodBlog13 from '../assets/images/food/blog/f4.jpg';
 
-import blog1 from '../assets/images/blog/01.jpg';
-import blog2 from '../assets/images/blog/09.jpg';
-import blog3 from '../assets/images/blog/10.jpg';
-import blog4 from '../assets/images/blog/11.jpg';
-import blog5 from '../assets/images/blog/12.jpg';
-import blog6 from '../assets/images/food/blog/1.jpg';
-import blog7 from '../assets/images/blog/13.jpg';
-import blog8 from '../assets/images/blog/14.jpg';
-import blog9 from '../assets/images/food/blog/2.jpg';
-import blog10 from '../assets/images/blog/02.jpg';
-import blog11 from '../assets/images/blog/03.jpg';
-import blog12 from '../assets/images/blog/04.jpg';
-import blog13 from '../assets/images/blog/05.jpg';
-import blog14 from '../assets/images/blog/06.jpg';
-import blog15 from '../assets/images/blog/07.jpg';
-import blog16 from '../assets/images/blog/08.jpg';
+import blog1 from '../assets/images/blog/blog.png';
 
 import Property1 from '../assets/images/real/property/1.jpg'
 import Property2 from '../assets/images/real/property/2.jpg'
@@ -535,48 +520,7 @@ export const foodBlogData = [
         title:"Giant Multi-Stuffed Soft Pretzel",
         date:"13th September 2023",
     },
-    {
-        id:2,
-        image:foodBlog2,
-        tag:"Breakfast",
-        title:"Romantic Breakfast for Two",
-        date:"29th Novenber 2023",
-    },
-    {
-        id:3,
-        image:foodBlog3,
-        tag:"Breads",
-        title:"Macchiato Pumpkin Soup",
-        date:"29th December 2023",
-    },
-    {
-        id:4,
-        image:foodBlog4,
-        tag:"Chef",
-        title:"Braised Pork Belly Adobo By Chef Leah Cohen",
-        date:"13th March 2023",
-    },
-    {
-        id:5,
-        image:foodBlog5,
-        tag:"Breads",
-        title:"Cinnamon Buns for Two",
-        date:"6th May 2023",
-    },
-    {
-        id:6,
-        image:foodBlog6,
-        tag:"Cooker",
-        title:"Slow Cooker Coconut Curry",
-        date:"19th June 2023",
-    },
-    {
-        id:7,
-        image:foodBlog7,
-        tag:"Birthday",
-        title:"Perfect for a Birthday Party",
-        date:"20th June 2023",
-    },
+    
     {
         id:8,
         image:foodBlog8,
@@ -624,194 +568,16 @@ export const blogData = [
     {
         id:1,
         image:blog1,
-        title:'Design your apps in your own way',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'A Technical Analysis of UniSwap V3',
+        desc:'Uniswap is the one of the world’s largest permissionless Distributed Exchange (DEX) on Ethereum by volume. After weeks of breathless anticipation...',
         category:'Advisory',
-        date:'13th September 2023',
+        date:'2021/05/20',
         client:client1,
-        name:"Steven Townsend",
-    },
-    {
-        id:2,
-        image:blog2,
-        title:'How apps is changing the IT world',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Travelling',
-        date:'29th November 2023',
-        client:client2,
-        name:"Tiffany Betancourt",
-    },
-    {
-        id:3,
-        image:blog3,
-        title:'Smartest Applications for Business',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Advisory',
-        date:'29th December 2023',
-        client:client3,
-        name:"Jacqueline Burns",
-    }, 
-     {
-        id:4,
-        image:blog4,
-        title:'Stop Worrying About Deadlines! We Got You Covered',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Tech',
-        date:'13th March 2023',
-        client:client4,
-        name:"Mari Harrington",
-    },
-    {
-        id:5,
-        image:blog5,
-        title:'Everything About Financial Modeling',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Lifestyle',
-        date:'6th May 2023',
-        client:client5,
-        name:"Floyd Glasgow" ,
-    },
-    {
-        id:6,
-        image:blog6,
-        title:'Change Your Strategy: Find a Business Consultant',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'19th June 2023',
-        client:client6,
-        name:"Donna Schultz",
-    },
-    {
-        id:7,
-        image:blog7,
-        title:'How apps is changing the IT world',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Lifestyle',
-        date:'20th June 2023',
-        client:client7,
-        name:"Joshua Morris",
-    },
-    {
-        id:8,
-        image:blog8,
-        title:'On the other hand we provide',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Hotel',
-        date:'31st August 2023',
-        client:client8,
-        name:"Rosaria Vargas",
-    },
-    {
-        id:9,
-        image:blog9,
-        title:'Design your apps in your own way',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'1st September 2023',
-        client:client1,
-        name:"Rosaria Vargas",
-    },
-    {
-        id:10,
-        image:blog1,
-        title:'How apps is changing the IT world',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'13th September 2023',
-        client:client1,
-        name:"Steven Townsend",
-    },
-    {
-        id:11,
-        image:blog10,
-        title:'Smartest Applications for Business',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'29th November 2023',
-        client:client2,
-        name:"Tiffany Betancourt",
-    },
-    {
-        id:12,
-        image:blog11,
-        title:'Mobile Marketing, Its Synthes and 2021 Offer Prognosis',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'29th December 2023',
-        client:client3,
-        name:"Jacqueline Burns",
-    },
-    {
-        id:13,
-        image:blog12,
-        title:'Stop Worrying About Deadlines! We Got You Covered',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'13th March 2023',
-        client:client4,
-        name:"Mari Harrington",
-    },
-    {
-        id:14,
-        image:blog13,
-        title:'Change Your Strategy: Find a Business Consultant',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'6th May 2023',
-        client:client5,
-        name:"Floyd Glasgow",
-    },
-    {
-        id:15,
-        image:blog14,
-        title:'Everything About Financial Modeling',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'19th June 2023',
-        client:client6,
-        name:"Donna Schultz",
-    },
-    {
-        id:16,
-        image:blog15,
-        title:'On the other hand we provide denounce',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'20th June 2023',
-        client:client7,
-        name:"Joshua Morris",
-    },
-    {
-        id:17,
-        image:blog16,
-        title:'Smartest Applications for Business',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        category:'Food',
-        date:'31st August 2023',
-        client:client8,
-        name:"Rosaria Vargas",
-    },
-]
-export  const RecentPostData = [
-    {
-        Image: blog14,
-        Class: 'flex items-center mt-8',
-        Title: 'Consultant Business',
-        Date: '13th March 2023'
-    },
-    {
-        Image: blog15,
-        Class: 'flex items-center mt-4',
-        Title: 'Grow Your Business',
-        Date: '5th May 2023'
-    },
-    {
-        Image: blog16,
-        Class: 'flex items-center mt-8',
-        Title: 'Look On The Glorious Balance',
-        Date: '19th June 2023'
+        name:"nischal Gaba",
+        link:"https://credmark.com/blog/a-technical-analysis-of-uniswap-v3"
     }
-];
+]
+
 export const propertyListing = [
     {
         id:1,

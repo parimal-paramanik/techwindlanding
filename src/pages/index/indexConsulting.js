@@ -9,44 +9,37 @@ import Navbar from '../../component/Navbar/navbar'
 import Footer from '../../component/Footer/footer';
 // manageent team is coming from components
 import ManagementTeam from '../../component/managementTeam';
+import Myproject from '../Myproject/Myproject';
 import CompanyLogo from '../../component/companyLogo';
 
 import {FaArrowRight,FiAirplay} from '../../assets/icons/icons'
+import {FaLinkedin} from '../../assets/icons/icons'
+import { FaGithub } from "react-icons/fa";
 
-import TinySlider from 'tiny-slider-react';
+// import TinySlider from 'tiny-slider-react';
 import CountUp from 'react-countup';
 import { feedback } from '../../data/data';
 import { consultingAbout, consultingProduct, consultingServices } from '../../data/dataTwo';
 
-const settings = {
-    container: '.tiny-single-item',
-    items: 1,
-    controls: false,
-    mouseDrag: true,
-    loop: true,
-    rewind: true,
-    autoplay: true,
-    autoplayButtonOutput: false,
-    autoplayTimeout: 3000,
-    navPosition: "bottom",
-    speed: 400,
-    gutter: 16,
-}
+
 export default function IndexConsulting() {
     return (
         <>
             <Navbar navClass="nav-light" />
-            {/* background image  */}
+            
             <section className="relative md:py-60 py-36 bg-[url('../../assets/images/consulting/bg.jpg')] bg-right bg-no-repeat bg-cover">
                 <div className="absolute inset-0 bg-slate-900/70"></div>
                 <div className="container relative">
                     <div className="grid grid-cols-1 items-center mt-10">
-                        <span className="text-white/80 font-semibold mb-4 text-lg">Turn Your Skills And Expertise Into A Successful Business</span>
-                        <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">Grow your business <br /> with focus & clarity.</h4>
-                        <p className="text-white/60 text-lg max-w-xl">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
+                        <span className="text-white/80 font-bold mb-4 text-xl">Hi, I am</span>
+                        <h4 className="font-extrabold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">Nishchal Gaba <br />AI & Blockchain Expert</h4>
+                        <p className="text-white/60 text-xl max-w-xl font-extrabold">I help businesses research, integrate and execute AI & Web3 Solutions. Happy to tag along your product development journey if you are building somethign amazing.</p>
 
-                        <div className="mt-8">
-                            <Link to="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Learn More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                        <div className="mt-8 ">
+                        <ul className="list-none mt-5 space-x-1 space-y-1">
+                                    <li className="inline"><Link to="https://www.linkedin.com/in/nishchal-gaba-295701a5/" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaLinkedin className='text-sm bg-white h-6 w-6'/></Link></li>
+                                    <li className="inline"><Link to="https://github.com/nishgaba-ai" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaGithub className='text-sm bg-white h-6 w-6'/></Link></li>
+                                </ul>
                         </div>
                     </div>
                 </div>
@@ -61,9 +54,9 @@ export default function IndexConsulting() {
             <section className="relative md:py-24 py-16">
                 <div className="container relative">
                     <div className="grid grid-cols-1 pb-8 text-center">
-                        <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Business Consulting Services</h3>
+                        <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Area of Expertise</h3>
 
-                        <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p className="text-slate-400 max-w-xl mx-auto">These 3 areas are my life's passion, research expertise and areas I would love to help everyone grow.</p>
                     </div>
  {/* this map is to show Business Consulting Services */}
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
@@ -112,16 +105,16 @@ export default function IndexConsulting() {
                         <div className="lg:col-span-7 md:col-span-6">
                             <div className="lg:ms-5">
                                 <div className="flex mb-4">
-                                    <span className="text-indigo-600 text-2xl font-bold mb-0"><CountUp className="counter-value text-6xl font-bold"start={1} end={15}></CountUp>+</span>
+                                    <span className="text-indigo-600 text-2xl font-bold mb-0"><CountUp className="counter-value text-6xl font-bold"start={1} end={12}></CountUp>+</span>
                                     <span className="self-end font-semibold ms-2">Years <br /> Experience</span>
                                 </div>
 
-                                <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Business and technology <br /> consulting for growth</h3>
+                                <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">AI & Blockchain Research <br /> </h3>
 
-                                <p className="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content.</p>
+                                <p className="text-slate-400 max-w-xl">From Working with giants like Target US Retail, Delhivery, academia like IIT Delhi to web3 firms across US and Singapore, the journey has been an enriching one. Each day getting better is the key, I try new reserach, play with AI models and build out web3 ideas to reality.If you are looking for a trusted partner on your team, I think we would gel up well :)</p>
 
                                 <div className="mt-6">
-                                    <Link to="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-2"><FiAirplay className="me-1"/> Get Started</Link>
+                                    <Link to="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-2"><FiAirplay className="me-1"/> Get Started</Link>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +149,7 @@ export default function IndexConsulting() {
                     <div className="grid md:grid-cols-12 grid-cols-1 pb-8 items-end">
                         <div className="lg:col-span-8 md:col-span-6 md:text-start text-center">
                             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Our Digital Product</h3>
-                            <p className="text-slate-400 max-w-xl">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p className="text-slate-400 max-w-xl">Start working with Prodigal that can provide everything you need regarding Ai and Web3.</p>
                         </div>
 
                         <div className="lg:col-span-4 md:col-span-6 md:text-end hidden md:block">
@@ -171,7 +164,9 @@ export default function IndexConsulting() {
                                 <div className="">
                                     <div className="relative">
                                         <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-indigo-600/5 dark:bg-indigo-600/30">
-                                            <img src={item.image} className="rounded-t-md shadow" alt="" />
+                                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+     <img src={item.image} className="rounded-t-md shadow" alt="" />
+</a>
                                         </div>
                                     </div>
 
@@ -237,7 +232,8 @@ export default function IndexConsulting() {
 
                             <div className="tiny-single-item">
 {/* this one is to show feedback */}
-                                <TinySlider settings={settings}>
+                                {/* <TinySlider settings={settings}> */}
+                                <div>
                                     {feedback.map((item, index) => {
                                         return(
                                             <div className="tiny-slide" key={index}>
@@ -261,16 +257,16 @@ export default function IndexConsulting() {
                                             </div>
                                         )
                                     })}
-                                </TinySlider>
+                                </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
                 <ManagementTeam className="relative md:mt-24 mt-16" id={""} />
+                <Myproject className="relative md:mt-24 mt-16" id={""}/>
             </section>
             <Footer />
-            {/* <CookieModal /> */}
         </>
     )
 }

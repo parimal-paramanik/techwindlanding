@@ -21,9 +21,9 @@ export default function Footer() {
                                 <Link to="/#" className="text-[22px] focus:outline-none">
                                     <img src={logo_light} alt=""  height="40"  width ="40" />
                                 </Link>
-                                <p className='font-bold text-lg'>Prodigal Ai</p>
+                                <p className='font-bold text-lg'>Prodigal AI</p>
                                 </div>
-                                <p className="mt-6 text-gray-300">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                               
                                 <ul className="list-none mt-5 space-x-1 space-y-1">
                                     <li className="inline"><Link to="https://www.linkedin.com/in/nishchal-gaba-295701a5/" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaLinkedin className='text-sm'/></Link></li>
                                     <li className="inline"><Link to="https://github.com/nishgaba-ai" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaGithub className='text-sm'/></Link></li>
@@ -38,7 +38,7 @@ export default function Footer() {
             <div className="container relative text-center">
                 <div className="grid md:grid-cols-2 items-center">
                     <div className="md:text-start text-center">
-                        <p className="mb-0">© {new Date().getFullYear()} Prodiagl Ai. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Nischal</Link>.</p>
+                        <p className="mb-0">© {new Date().getFullYear()} Prodiagl Ai. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Nishchal</Link>.</p>
                     </div>
 
                 </div>

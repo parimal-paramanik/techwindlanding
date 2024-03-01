@@ -34,13 +34,13 @@ export default function IndexPersonal() {
                                 <div className="grid md:grid-cols-2">
                                     <div className="md:text-end md:me-8 relative">
                                         {/* <img src={lenovo_logo} className="rounded-full h-9 w-9 md:ms-auto" alt="" /> */}
-                                        <h5 className="my-2 font-semibold text-lg">ZeeQ Technologies</h5>
+                                        <h5 className="my-2 font-semibold text-lg">Chief Technology Officer</h5>
+                                        <h6 className="text-slate text-sm mb-0">Oct 2021 - Aug 2023</h6>
                                         
                                     </div>
 
                                     <div className="ltr:float-left rtl:float-right text-start ms-8 mt-6 md:mt-0">
-                                        <h5 className="title mb-1 font-semibold">Chief Technology Officer</h5>
-                                        <h6 className="text-slate text-sm mb-0">Oct 2021 - Aug 2023</h6>
+                                        <h5 className="title mb-1 font-semibold"> ZeeQ Technologies</h5>
                                         
                                     </div>
                                 </div>

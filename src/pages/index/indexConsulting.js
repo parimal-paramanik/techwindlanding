@@ -20,8 +20,7 @@ import { FaGithub } from "react-icons/fa";
 import CountUp from 'react-countup';
 import { feedback } from '../../data/data';
 import { consultingAbout, consultingProduct, consultingServices } from '../../data/dataTwo';
-
-
+import Education from '../Myproject/Education';
 export default function IndexConsulting() {
     return (
         <>
@@ -118,6 +117,7 @@ export default function IndexConsulting() {
                         </div>
                     </div>
                 </div>
+                
                     {/*  this is is to show learn more options */}
                 <div className="container relative mt-16">
                     <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
@@ -139,7 +139,9 @@ export default function IndexConsulting() {
                     </div>
                 </div>
             </section>
-            
+           
+            {/* <Education/> */}
+          
             <section className="relative md:py-24 py-16">
                 <div className="container relative">
                     <div className="grid md:grid-cols-12 grid-cols-1 pb-8 items-end">

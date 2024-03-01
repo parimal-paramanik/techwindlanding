@@ -1,8 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom';
 
-// import * as Icon from 'react-feather'
-// import {FaArrowRight} from '../../assets/icons/icons'
 
 import { Myprojects} from '../../data/data';
 import Carousel from 'react-multi-carousel';

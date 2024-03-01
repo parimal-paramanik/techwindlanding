@@ -19,6 +19,8 @@ module.exports = {
             'cursive-kaushan': ['"Kaushan Script", cursive'],
             'head-ebgaramond': ['"EB Garamond", serif'],
             'para-worksans': ['"Work Sans", sans-serif'],
+            'inter': ['Inter', 'sans-serif'],
+            'caveat': ['Caveat', 'cursive'],
         },
         container: {
             center: true,

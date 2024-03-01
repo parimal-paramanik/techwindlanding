@@ -44,6 +44,14 @@ import course9 from '../assets/images/course/c9.jpg';
 import course10 from '../assets/images/course/c10.jpg';
 
 import foodBlog1 from '../assets/images/food/blog/1.jpg';
+import foodBlog2 from '../assets/images/food/blog/2.jpg';
+import foodBlog3 from '../assets/images/food/blog/3.jpg';
+import foodBlog4 from '../assets/images/food/blog/4.jpg';
+import foodBlog5 from '../assets/images/food/blog/5.jpg';
+import foodBlog6 from '../assets/images/food/blog/6.jpg';
+import foodBlog7 from '../assets/images/food/blog/7.jpg';
+import foodBlog8 from '../assets/images/food/blog/8.jpg';
+import foodBlog9 from '../assets/images/food/blog/9.jpg';
 import foodBlog10 from '../assets/images/food/blog/10.png';
 import foodBlog11 from '../assets/images/food/blog/11.png';
 import foodBlog12 from '../assets/images/food/blog/12.png';
@@ -536,42 +544,42 @@ export const Myprojects = [
     },
     {
         id:2,
-        image:foodBlog1,
+        image:foodBlog2,
         title:"Travel Intent AI",
     },
     {
         id:3,
-        image:foodBlog1,
+        image:foodBlog3,
         title:"Gen AI based travel recommendation",
     },
     {
         id:4,
-        image:foodBlog1,
+        image:foodBlog4,
         title:"Social Content Automation",
     },
     {
         id:5,
-        image:foodBlog1,
+        image:foodBlog5,
         title:"DeFi Aggregation Platform",
     },
     {
         id:6,
-        image:foodBlog1,
+        image:foodBlog6,
         title:"RWA Fractional Assets protocols for planes, movies and prop tech",
     },
     {
         id:7,
-        image:foodBlog1,
+        image:foodBlog7,
         title:"N-Tier Fractionalization Research",
     },
     {
         id:8,
-        image:foodBlog1,
+        image:foodBlog8,
         title:"Gen AI Tools Aggregation Platform (Marketing Focused)",
     },
     {
         id:9,
-        image:foodBlog1,
+        image:foodBlog9,
         title:"LLM Automation Pipelines",
     },
 

@@ -1,123 +1,49 @@
-import React from 'react';
 
-const Education = () => {
+import "../../../node_modules/react-modal-video/css/modal-video.css";
+import "react-18-image-lightbox/style.css"
+;
+export default function Education() {
     return (
-   <div className='flex flex-row  w-[80%] border-2 border-red-500 m-auto justify-between items-center'>
-    <div className="relative font-inter antialiased border-2 border-red-500 w-[100%] ">
-    <main className="relative min-h-screen flex flex-col justify-center bg-slate-50 overflow-hidden">
-        <div className=" mx-auto px-4 md:px-6 py-24">
-            <div className="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
-                <div className="w-full max-w-3xl mx-auto">
-   <div className="-my-6">
-    <div className="relative pl-8 sm:pl-32 py-6 group">
-    {/* <!-- Purple label --> */}
-    <div className="font-caveat font-medium text-2xl text-indigo-500 mb-1 sm:mb-0">Education</div>
-    {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <div className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">2016 - 2017</div>
-        <div className="text-xl font-bold text-slate-900">Master of Science (M.Sc),Artificial Intelligence</div>
-    </div>
-    <div className="text-slate-500">The University of Edinburgh</div>
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">2012 - 2016</time>
-        <div className="text-xl font-bold text-slate-900">Bachelor of Technology (B.Tech),Computer Science</div>
-    </div>
-    <div className="text-slate-500">Guru Gobind Singh Indraprastha University</div>
-</div>
+        <>
+            <section className="relative  bg-gray-50 dark:bg-slate-800">
+                <div className="container relative">
+                    <div className="grid grid-cols-1 pb-8 text-center">
+                    <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Education</h3>
+                    </div>
 
-</div>
-                   
-   </div>
+                    <div className="grid grid-cols-1 mt-8">
+                        <div className="relative after:content-[''] after:absolute after:top-0 md:after:end-0 md:after:start-0 after:w-px after:h-full md:after:m-auto after:border-s-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ms-3 md:ms-0">
+                            <div className="ms-8 md:ms-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:end-0 md:after:start-0 after:-start-9 before:content-[''] before:absolute md:before:mx-auto md:before:end-0 md:before:start-0 before:-start-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                                <div className="grid md:grid-cols-2">
+                                    <div className="md:text-end md:me-8 relative">
+                                        <h5 className="my-2 font-semibold text-lg">Master of Science (M.Sc),Artificial Intelligence</h5>
+                                        <h6 className="text-slate text-sm mb-0">2016 - 2017</h6>
+                                    </div>
 
-    </div>
-    </div>
-    </main>
-    </div> 
-     {/* 2nd div */}
-     <div className="relative font-inter antialiased border-2 border-red-500 ">
-    <main className="relative min-h-screen flex flex-col justify-center bg-slate-50 overflow-hidden">
-    <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
-     <div className="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
-       <div className="w-full max-w-3xl mx-auto">
-   <div className="-my-6">
-    <div className="relative pl-8 sm:pl-32 py-6 group">
-    {/* <!-- Purple label --> */}
-    <div className="font-caveat font-medium text-2xl text-indigo-500 mb-1 sm:mb-0">Experience</div>
-    {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <div className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Oct 2021 - Present</div>
-        <div className="text-xl font-bold text-slate-900">Chief Technology Officer - ZeeQ Technologies</div>
-    </div>
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Aug 2021 - Present</time>
-        <div className="text-xl font-bold text-slate-900">Chief Executive Officer - Prodigal AI Technologies Pvt. Ltd.</div>
-    </div>
+                                    <div className="ltr:float-left rtl:float-right text-start ms-8 mt-6 md:mt-0">
+                                        <h5 className="title mb-1 font-semibold">The University of Edinburgh</h5>
+                                      
+                                    </div>
+                                </div>
+                            </div>
 
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Apr 2021 - Present</time>
-        <div className="text-xl font-bold text-slate-900">Contributer - Credmark</div>
-    </div>
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Jan 2020 - Jul 2021</time>
-        <div className="text-xl font-bold text-slate-900">Co- Founder - Dockship</div>
-    </div>
-   
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Jun 2018 - Jul 2021</time>
-        <div className="text-xl font-bold text-slate-900">Co-Founder - Unreal AI</div>
-    </div>
-   
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Jan 2021 - Mar 2021</time>
-        <div className="text-xl font-bold text-slate-900">Entrepreneur - Antler</div>
-    </div>
-   
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Nov 2017 - Jun 2018</time>
-        <div className="text-xl font-bold text-slate-900">Chief Technology Officer - Learn Venue</div>
-    </div>
+                            <div className="mt-12 ms-8 md:ms-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:end-0 md:after:start-0 after:-start-9 before:content-[''] before:absolute md:before:mx-auto md:before:end-0 md:before:start-0 before:-start-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                                <div className="grid md:grid-cols-2">
+                                    <div className="text-start ms-8 relative md:order-2">
+                                        <h5 className="my-2 font-semibold text-lg">Bachelor of Technology (B.Tech),Computer Science</h5>
+                                        <h6 className="text-slate text-sm mb-0">2012 - 2016</h6>
+                                    </div>
 
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Jun 2015 - Jul 2015</time>
-        <div className="text-xl font-bold text-slate-900">Engineering Trainee - Renovision Automation Services Pvt. Ltd.</div>
-    </div>
-    
-</div>
-<div className="relative pl-8 sm:pl-32 py-6 group">
-    <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-        <div className='bg-blue-500 dark:bg-slate-800'>
-        <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-30 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full mt-2">Jan 2015 - Feb 2015</time>
-        <div className="text-xl font-bold text-slate-900">Web Developer - Wizni Software Pvt. Ltd.</div>
-        </div>
-    </div>
-</div>
+                                    <div className="ltr:float-left rtl:float-right md:text-end md:me-8 mt-6 md:mt-0 md:order-1">
+                                        <h5 className="title mb-1 font-semibold">Guru Gobind Singh Indraprastha University</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-</div>
-                   
-   </div>
-
-    </div>
-    </div>
-    </main>
-    </div>
-       </div>
-    );
+        </>
+    )
 }
-
-export default Education;

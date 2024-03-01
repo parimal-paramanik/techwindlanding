@@ -21,6 +21,7 @@ import CountUp from 'react-countup';
 import { feedback } from '../../data/data';
 import { consultingAbout, consultingProduct, consultingServices } from '../../data/dataTwo';
 import Education from '../Myproject/Education';
+import IndexPersonal from './indexPersonal';
 export default function IndexConsulting() {
     return (
         <>
@@ -140,7 +141,8 @@ export default function IndexConsulting() {
                 </div>
             </section>
            
-            {/* <Education/> */}
+            <Education/>
+            <IndexPersonal/>
           
             <section className="relative md:py-24 py-16">
                 <div className="container relative">

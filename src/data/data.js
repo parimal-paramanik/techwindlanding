@@ -1038,7 +1038,7 @@ export const feedback =[
     },
     {
         id:3,
-        description: 'With Nish as our AI consultant, the team was inspired to another leve "',
+        description: 'With Nish as our AI consultant, the team was inspired to another level"',
         image: client3,
         name: 'Nikhil Mishra',
         role: 'ZeeQ'
